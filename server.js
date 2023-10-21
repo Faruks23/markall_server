@@ -30,7 +30,7 @@ app.post("/sendEmail", (req, res) => {
   // Define the email message
   const mailOptions = {
     from: email,
-    to: "mdfaruksp2@gmail.com",
+    to: "assignment@spreadinindia.in",
     subject: "Contact Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
